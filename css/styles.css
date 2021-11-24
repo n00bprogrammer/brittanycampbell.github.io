@@ -1,0 +1,97 @@
+body{
+  font-family: "Open Sans", Lobster;
+}
+
+h1, h2 {
+  font-family: "Pacifico", Lobster;
+}
+img.displayed{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  display: block;
+}
+
+*{
+  background-color: #d4af37;
+}
+.page-wrap h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+body {
+  background-color: #d4af37;
+  color:#2c0768;
+}
+
+
+.column {
+  float: 30%;
+  padding: 5px;
+}
+
+img.solo, .jean{
+  width: 100%;
+}
+
+.container{
+  display:flex;
+}
+/* CONTACT STYLES
+-----------------------------------------*/
+form {
+  width: 400px;
+}
+input,
+textarea {
+  border: 1px solid #2c0768;
+  width: 400px;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #d4af37;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+/* FOOTER STYLES
+-----------------------------------------*/
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrap:after {
+  height: 55px; /* however tall you want the footer to be */
+}
+footer {
+  background: #d4af37;
+  text-align: center;
+  padding: 1px;
+}
+
+
+
+.flexslider .slides > li {
+  overflow:hidden;
+  position:relative;
+  height:400px;
+  width:400px; /* desired height here */
+}
+.flexslider .slides img {
+  height:auto;
+  width: auto;
+}
